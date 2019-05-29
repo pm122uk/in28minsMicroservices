@@ -27,6 +27,8 @@ public class CurrencyConversionBean {
 			this.port = port;
 		}
 		
+		
+				
 		public Long getId() {
 			return id;
 		}
