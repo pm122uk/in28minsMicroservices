@@ -16,10 +16,7 @@ public class CurrencyExchangeController {
 	
 	@Autowired
 	private ExchangeValueRepository repository;
-	
-
-	
-	
+		
 	@GetMapping("/currency-exchange/from/{from}/to/{to}")
 	public ExchangeValue retrieveExchangeController(@PathVariable String from, 
 													@PathVariable String to)

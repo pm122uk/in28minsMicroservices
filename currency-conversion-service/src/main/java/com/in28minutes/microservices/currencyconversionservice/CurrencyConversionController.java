@@ -29,7 +29,7 @@ public class CurrencyConversionController {
 		
 		Map<String, String> uriVariables = new HashMap<>();
 		uriVariables.put("from", from);
-		uriVariables.put("to", to);
+		uriVariables.put("to", to); 
 		
 		ResponseEntity<CurrencyConversionBean> responseEntity= 
 				new RestTemplate().getForEntity(
@@ -41,10 +41,9 @@ public class CurrencyConversionController {
 		
 		CurrencyConversionBean response = responseEntity.getBody();
 		
-	
 		return new CurrencyConversionBean(response.getId(),  from, to, response.getConversionMultiple(), quantity,
 				quantity.multiply(response.getConversionMultiple()),
-				response.getPort());
+				response.getPort()); 
 	}
 	
 	
