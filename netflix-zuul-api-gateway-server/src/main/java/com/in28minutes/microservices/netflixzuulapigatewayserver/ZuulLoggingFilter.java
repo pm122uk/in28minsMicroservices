@@ -20,31 +20,27 @@ public class ZuulLoggingFilter extends ZuulFilter{
 
 	@Override
 	public boolean shouldFilter() {
-		return true;
+		return true;    // filters every request
 	}
 
-	// logs the request could be used to for security or  rate limiting , 
-	//
-	//
-	
+	// logs the request, could be used to for security or  rate limiting , 
+	// Example logging filter
 	@Override
 	public Object run() {
-		HttpServletRequest request = 
-				RequestContext.getCurrentContext().getRequest();
-		logger.info("request -> {} request uri -> {}", 
-				request, request.getRequestURI());
+		HttpServletRequest request = RequestContext.getCurrentContext().getRequest();
+		logger.info("request -> {} request uri -> {}", request, request.getRequestURI());
 		return null;
 	}
 
 
 	@Override
 	public String filterType() {
-		return "pre";    // before , after or error requests
+		return "pre";    // filter before or after or error requests
 	}
 
 	@Override
 	public int filterOrder() {
-		return 1;
+		return 1;     	// Can supply a priority
 	}
 
 }
