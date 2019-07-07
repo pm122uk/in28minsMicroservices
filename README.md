@@ -3,7 +3,7 @@ Microservices example
 The example covers setting up :
 <ul>
   <li>Centralised Microservice Configuration with Spring Cloud Config Server</li>
-  <li>Implementation of client side load balancing (Ribbon), Dynamic scaling(Eureka Naming Server) and an API Gateway (Zuul)</li>
+  <li>Implementation of client side load balancing (Ribbon), <li>Dynamic scaling(Eureka Naming Server) </li> <li>and an API Gateway (Zuul)</li>
   <li>Implementation of Distributed tracing for microservices with Spring Cloud Sleuth and Zipkin</li>
  <li>Implementation example of Fault Tolerance for microservices with Zipkin,<li>
 </ul>
