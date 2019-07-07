@@ -6,7 +6,7 @@ The example covers setting up :
   <li>Client side load balancing (Ribbon)<li> Dynamic scaling(Eureka Naming Server) </li> 
   <li>All accessed through an API Gateway (Zuul)</li>
   <li>Implementation of Distributed tracing for microservices with Spring Cloud Sleuth and Zipkin</li>
- <li>Implementation example of Fault Tolerance for microservices with Zipkin,<li>
+ <li>Implementation example of Fault Tolerance for microservices with Zipkin,</li>
 </ul>
 
 
@@ -26,7 +26,7 @@ testing tools   - java -jar restclient-ui-3.1-jar-with-dependencies.jar  <br>
 </thead>
 <tbody>
 <tr>
-<td>Limits Service</td>
+<td>Service C</td>
 <td>8080, 8081, ...</td>
 </tr>
 <tr>
@@ -38,11 +38,11 @@ testing tools   - java -jar restclient-ui-3.1-jar-with-dependencies.jar  <br>
 <td></td>
 </tr>
 <tr>
-<td>Currency Exchange Service</td>
+<td>Service B</td>
 <td>8000, 8001, 8002, ..</td>
 </tr>
 <tr>
-<td>Currency Conversion Service</td>
+<td>Service A</td>
 <td>8100, 8101, 8102, ...</td>
 </tr>
 <tr>
