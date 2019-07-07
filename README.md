@@ -17,4 +17,45 @@ limit-service    -   http://localhost:8080/limits                    <br>
 testing tools   - java -jar restclient-ui-3.1-jar-with-dependencies.jar  <br>
 
 
- 
+ <table>
+<thead>
+<tr>
+<th>Application</th>
+<th>Port</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Limits Service</td>
+<td>8080, 8081, ...</td>
+</tr>
+<tr>
+<td>Spring Cloud Config Server</td>
+<td>8888</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Currency Exchange Service</td>
+<td>8000, 8001, 8002, ..</td>
+</tr>
+<tr>
+<td>Currency Conversion Service</td>
+<td>8100, 8101, 8102, ...</td>
+</tr>
+<tr>
+<td>Netflix Eureka Naming Server</td>
+<td>8761</td>
+</tr>
+<tr>
+<td>Netflix Zuul API Gateway Server</td>
+<td>8765</td>
+</tr>
+<tr>
+<td>Zipkin Distributed Tracing Server</td>
+<td>9411</td>
+</tr>
+</tbody>
+</table>
