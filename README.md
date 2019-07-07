@@ -10,7 +10,7 @@ The example covers setting up :
 </ul>
 
 
-Contains a group of microservices. This example focusus more on the config server , naming server ,API gateway, distrbuted tracing etc.
+Contains a group of microservices. This example focusus more on the config server , naming server ,API gateway, distrbuted tracing etc and fault tollerance.
 
 
 Spring config server  http://localhost:8888/limits-service/default  <br>
