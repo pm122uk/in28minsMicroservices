@@ -10,6 +10,8 @@ import javax.persistence.Id;
 @Entity
 public class ExchangeValue {
 	
+	
+	
 	@Id
 	private Long id;
 	

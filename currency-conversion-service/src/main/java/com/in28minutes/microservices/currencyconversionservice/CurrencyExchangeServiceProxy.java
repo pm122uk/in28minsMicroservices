@@ -18,7 +18,7 @@ public interface CurrencyExchangeServiceProxy {
 }
 */
 
-@FeignClient(name="netflix-zuul-api-gateway-server")
+@FeignClient(name="netflix-zuul-api-gateway-server")   // now run though zuul
 @RibbonClient(name="currency-exchange-service")
 public interface CurrencyExchangeServiceProxy {
 	@GetMapping("/currency-exchange-service/currency-exchange/from/{from}/to/{to}")

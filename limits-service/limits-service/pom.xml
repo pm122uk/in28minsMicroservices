@@ -39,6 +39,14 @@
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
 		
+		
+		<!-- step 9 fault tollerance  -->
+	  <dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+		</dependency>
+		
+		
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
